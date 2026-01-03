@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+&::after{
+        content: "";
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        background-color:rgba(5, 5, 45, 0.816) ;
+        top: 0;
+        left: 0;
+
+     
+}
+.main-Cantainrer{
+height: 100vh;
+width: 100vw;
+background-image: url('download.png');    
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+#content-cantainer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgba(142, 184, 184, 0.393); */
+    height: 750px;
+    width: 700px;
+    border-radius: 17px;
+    position: relative;
+    z-index: 5;
+    box-shadow: 0px 0px 10px black;
+
+    
+
+    
+}
+
+h1{
+    /* padding-top: ;
+    
+    */
+    font-size: 35px;
+    color: #fff;
+    padding: 50px 0px;
+    text-transform: capitalize;
+
+
+
+}
+
+#input-number{
+    margin-bottom: 40px;
+    height: 60px;
+    color: #cec7c7;
+    width: 300px;
+    text-transform: uppercase;
+   
+    font-size: 25px;
+    border: none;
+    background-color: rgba(236, 191, 191, 0.233);
+    padding: 20px;
+        background-color: inherit;
+    border: 1px solid white;
+    box-shadow: rgba(255, 187, 0, 0.667) 0px 0px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#button-check{
+    height: 60px;
+    font-size: 25px ;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border: none;
+    background-color: #cf9e9e42;
+    color: #fff;
+  box-shadow: rgba(255, 187, 0, 0.667) 0px 0px 10px;
+  background-color: inherit;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+
+
+
+
+}
+
+#result{
+    text-align: center;padding: 30px  110px ;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: rgb(188, 188, 188);
+    text-transform: capitalize;
+}
+
+.button-2{
+
+      height: 60px;
+    font-size: 25px ;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border: none;
+    background-color: #cf9e9e42;
+    color: #fff;
+  box-shadow: rgba(255, 187, 0, 0.667) 0px 0px 10px;
+  background-color: inherit;
+  border: 1px solid white;
+  cursor: pointer;
+  
+  border-radius: 5px;
+  margin-top: 30px ;
+  margin-bottom: 60px ;
+
+
+
+
+
+
+
+}
+.live-box{
+    position: relative;
+    top: 100px;
+
+}
+#p-id{
+
+
+    span{
+        font-size: 25px;
+        color: #c8c5c5;
+    }
+
+}
